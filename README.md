@@ -26,6 +26,24 @@ Config
 ...
 ```
 
+trick for local config, use NotActive for service class
+I'm not yet found best way without a condition (if).
+```
+...
+'components'=>[
+  ...
+  'seoCollection'=>[
+    'class'=>'sheillendra\seo\Collection',
+    'services'=>[
+      'googleAnalytics'=>[
+        'class'=>'sheillendra\seo\services\NotActive'
+      ]
+    ]
+  ]
+  ...
+]
+...
+```
 view / layout
 ----
 ```
