@@ -1,7 +1,7 @@
 {
-	"name": "sheillendra/yii2-seo",
-	"description": "Yii2 Search Engine Optimization",
-	"keywords": ["user", "sheillendra", "yii2","yii","seo"],
+	"name": "sheillendra/yii2-embed-script",
+	"description": "Yii2 Embed Script",
+	"keywords": ["sheillendra", "yii2","yii","embed", "script"],
 	"type": "yii2-extension",
 	"license": "MIT",
 	"authors": [
@@ -12,7 +12,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"sheillendra\\seo\\": ""
+			"sheillendra\\embedscript\\": ""
 		}
 	}
 }
