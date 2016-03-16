@@ -1,6 +1,6 @@
 <?php
 
-namespace sheillendra\seo\services;
+namespace sheillendra\embedscript\services;
 
 use yii\base\Component;
 
@@ -9,11 +9,16 @@ class GoogleAnalytics extends Component {
     public $id;
     public $trackerId;
     public $domain = 'auto';
+
+    /**
+     * Follow https://support.google.com/analytics/answer/2558867?hl=en
+     * @var string 
+     */
     public $useEnhancedLinkAttribution = false;
 
     public function getScript() {
         $enhancedLinkAttributionString = '';
-        if($this->useEnhancedLinkAttribution){
+        if ($this->useEnhancedLinkAttribution) {
             $enhancedLinkAttributionString = 'ga("require", "linkid");';
         }
         return <<<JS

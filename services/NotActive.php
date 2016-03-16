@@ -1,5 +1,5 @@
 <?php
-namespace sheillendra\seo\services;
+namespace sheillendra\embedscript\services;
 
 use yii\base\Component;
 

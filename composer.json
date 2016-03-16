@@ -1,18 +1,18 @@
 {
-	"name": "sheillendra/yii2-embed-script",
-	"description": "Yii2 Embed Script",
-	"keywords": ["sheillendra", "yii2","yii","embed", "script"],
-	"type": "yii2-extension",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Sheillendra",
-			"email": "sheillendra@yahoo.com"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"sheillendra\\embedscript\\": ""
-		}
-	}
+    "name": "sheillendra/yii2-embed-script",
+    "description": "Yii2 Embed Script",
+    "keywords": ["sheillendra", "yii2", "yii", "embed", "script"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sheillendra",
+            "email": "sheillendra@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sheillendra\\embedscript\\": ""
+        }
+    }
 }
